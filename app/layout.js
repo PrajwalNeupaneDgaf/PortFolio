@@ -10,6 +10,10 @@ export const metadata = {
 const layout = ({ children }) => {
   return (
     <html>
+      <head>
+      <link rel="icon" href="/Fav.jpg" />
+      <meta name="color-scheme" content="light" />
+      </head>
       <body>
         <div>
           <Navbar/>
