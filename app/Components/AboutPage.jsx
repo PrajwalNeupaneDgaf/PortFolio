@@ -1,8 +1,9 @@
 import React from "react";
+import GoBelow from "./GoBelow";
 
 const AboutPage = () => {
   return (
-    <div id="about" className="px-6 md:px-16 min-h-[100dvh]">
+    <div id="about" className="px-6 md:px-16 min-h-[100dvh] relative pb-12">
       {/* Heading  */}
       <div className="text-center py-6">
         <h4 className="text-md font-normal text-gray-600">Get To Know More</h4>
@@ -13,7 +14,7 @@ const AboutPage = () => {
       <div className="flex flex-col lg:flex-row gap-6 md:gap-16 justify-center w-full md:pt-12 items-center">
         <div>
           <img
-            src="https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/471270892_1735936640313368_6666737061056396940_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFpvDfxpsRuC588YkiFOBLFVBEaOWBHz8JUERo5YEfPwga2ALnm1TvrTyJJcPD3PwuFTxNvGw9vcXXZVvb3nfDt&_nc_ohc=iuc3De6-Fh0Q7kNvwH4Ygek&_nc_oc=AdlUFpLPdaFgcCUe3e5RMxxMyTxnwYWMpowJPaWu47Vrw9GwWdC_9_R9_SXYT9fZQtZjr28ULwI4ydJyZDKpFccG&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=tmUdelkyUlFeTFpsuF3MdA&oh=00_AfFMEXvwXpuw4W8r-RwyGEsFvn5pfbJXHpi4nuFyW2EhAg&oe=68112D67"
+            src="/About.jpg"
             alt="About Prajwal Neupane"
             className="h-64 w-64  md:h-88 md:w-88 rounded-xl object-cover"
           />
@@ -40,6 +41,7 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
+      <GoBelow link={'#experience'}/>
     </div>
   );
 };

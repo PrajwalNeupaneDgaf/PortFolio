@@ -11,14 +11,14 @@ const layout = ({ children }) => {
   return (
     <html>
       <head>
-      <link rel="icon" href="/Fav.jpg" />
+      <link rel="icon" href="/Fav.jpg"  className='rounded-full'/>
       <meta name="color-scheme" content="light" />
       </head>
       <body>
         <div>
           <Navbar/>
         </div>
-        <div>{children}</div>
+        <div className='pb-12'>{children}</div>
       </body>
     </html>
   )
