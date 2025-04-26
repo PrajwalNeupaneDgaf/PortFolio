@@ -16,7 +16,7 @@ const HomePage = () => {
         <h1 className="text-[2.1rem] md:text-[2.5rem] text-gray-950 font-bold">Prajwal Neupane</h1>
         <h2 className="text-[1.2rem] font-semibold text-gray-800">FullStack Developer</h2>
         <div className="flex flex-row gap-2 justify-center items-center">
-          <button className="cursor-pointer p-3 border border-solid border-gray-700 rounded-2xl w-[10rem] my-3 hover:scale-[0.9] transition-all duration-200 font-semibold hover:bg-gray-600 hover:text-gray-100 origin-bottom-right">Download CV</button>
+          <a href="/Prajwal_Neupane_Resume.docx"  download className="cursor-pointer p-3 border border-solid border-gray-700 rounded-2xl w-[10rem] my-3 hover:scale-[0.9] transition-all duration-200 font-semibold hover:bg-gray-600 hover:text-gray-100 origin-bottom-right">Download CV</a>
           <Link href={"#contact"} className="cursor-pointer p-3 border border-solid border-gray-700 rounded-2xl w-[10rem] my-3 hover:scale-[0.9] transition-all duration-200 font-semibold text-gray-100 bg-gray-600"> Contact Info</Link>
         </div>
         <div  className="flex flex-row gap-2 justify-center items-center">
